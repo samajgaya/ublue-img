@@ -3,7 +3,7 @@
 set -ouex pipefail
 
 dnf install -y  \
-	network-manager \
+	NetworkManager \
 	iwd \
 	xorg-x11-server-Xorg \
 	xorg-x11-drv-libinput \
