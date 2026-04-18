@@ -5,9 +5,8 @@ set -ouex pipefail
 dnf install -y  \
 	NetworkManager \
 	iwd \
-	xorg-x11-server-Xorg \
-	xorg-x11-drv-libinput \
-	libXft
+	@base-x \
+	libXft \
 	mesa-dri-drivers \
 	google-noto-sans-fonts \
 	google-noto-serif-fonts \
